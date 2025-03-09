@@ -46,7 +46,7 @@ const Navbar = () => {
             <Link href="/" className={`text-2xl font-bold tracking-tight font-raleway transition-colors ${
               scrolled ? 'text-amber-800' : 'text-white'
             }`}>
-              Ács Mester
+              Ferencz Máté
             </Link>
           </div>
           

@@ -70,6 +70,23 @@ export default function Projects() {
           ))}
         </div>
 
+        {/* Video Section */}
+        <div className="mb-16">
+          <h2 className="text-3xl font-bold mb-8 text-center text-gray-800 font-raleway">
+            Munkáink a gyakorlatban
+          </h2>
+          <div className="relative rounded-xl overflow-hidden shadow-lg bg-gray-900 max-w-4xl mx-auto">
+            <video
+              className="w-full h-full"
+              controls
+              preload="metadata"
+            >
+              <source src="/video/video.mp4" type="video/mp4" />
+              Az Ön böngészője nem támogatja a videó lejátszását.
+            </video>
+          </div>
+        </div>
+
         {/* Image Modal */}
         {selectedImage && (
           <div
