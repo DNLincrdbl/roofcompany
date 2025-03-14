@@ -75,32 +75,6 @@ const Navbar = () => {
                   {item.name}
                 </Link>
               ))}
-              <a
-                href="tel:+36306547947"
-                className={`ml-4 px-5 py-2 rounded-full text-base font-medium transition-all font-montserrat flex items-center ${
-                  scrolled 
-                    ? 'bg-amber-800 text-white hover:bg-amber-700' 
-                    : 'bg-white text-amber-800 hover:bg-white/90'
-                }`}
-              >
-                <svg className="w-4 h-4 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
-                </svg>
-                <span>Hívjon most</span>
-              </a>
-              <a
-                href="viber://chat?number=+36306547947"
-                className={`ml-2 px-5 py-2 rounded-full text-base font-medium transition-all font-montserrat flex items-center ${
-                  scrolled 
-                    ? 'bg-[#665CAC] text-white hover:bg-[#7d71c5]' 
-                    : 'bg-[#665CAC] text-white hover:bg-[#7d71c5]'
-                }`}
-              >
-                <svg className="w-4 h-4 mr-2" viewBox="0 0 24 24" fill="currentColor">
-                  <path d="M11.2 0C5.85 0 1.3 4.55 1.3 9.9c0 2.15.7 4.15 1.85 5.75L1.3 20l4.35-1.85c1.6 1.15 3.6 1.85 5.75 1.85 5.35 0 9.9-4.55 9.9-9.9S16.55 0 11.2 0zm0 18.2c-1.85 0-3.6-.7-4.75-1.85l-3.5 1.4 1.4-3.5c-1.15-1.15-1.85-2.9-1.85-4.75 0-4.55 3.5-8.05 8.05-8.05s8.05 3.5 8.05 8.05-3.5 8.05-8.05 8.05z"/>
-                </svg>
-                <span>Viber</span>
-              </a>
             </div>
           </div>
 
@@ -151,24 +125,6 @@ const Navbar = () => {
                 {item.name}
               </Link>
             ))}
-            <a
-              href="tel:+36306547947"
-              className="mt-4 flex items-center justify-center w-full px-4 py-3 rounded-lg bg-amber-800 text-white text-base font-medium transition-all font-montserrat"
-            >
-              <svg className="w-4 h-4 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
-              </svg>
-              Hívjon most
-            </a>
-            <a
-              href="viber://chat?number=+36306547947"
-              className="mt-2 flex items-center justify-center w-full px-4 py-3 rounded-lg bg-[#665CAC] text-white text-base font-medium transition-all font-montserrat"
-            >
-              <svg className="w-4 h-4 mr-2" viewBox="0 0 24 24" fill="currentColor">
-                <path d="M11.2 0C5.85 0 1.3 4.55 1.3 9.9c0 2.15.7 4.15 1.85 5.75L1.3 20l4.35-1.85c1.6 1.15 3.6 1.85 5.75 1.85 5.35 0 9.9-4.55 9.9-9.9S16.55 0 11.2 0zm0 18.2c-1.85 0-3.6-.7-4.75-1.85l-3.5 1.4 1.4-3.5c-1.15-1.15-1.85-2.9-1.85-4.75 0-4.55 3.5-8.05 8.05-8.05s8.05 3.5 8.05 8.05-3.5 8.05-8.05 8.05z"/>
-              </svg>
-              <span>Viber üzenet</span>
-            </a>
           </div>
         </div>
       )}

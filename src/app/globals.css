@@ -29,6 +29,12 @@ body {
 @tailwind components;
 @tailwind utilities;
 
+html,
+body {
+  background-color: white;
+  scroll-behavior: smooth;
+}
+
 @layer base {
   :root {
     --font-montserrat: var(--font-montserrat);

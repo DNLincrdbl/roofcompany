@@ -8,8 +8,8 @@ const Layout = ({ children }: LayoutProps) => {
   return (
     <div className="min-h-screen bg-white">
       <Navbar />
-      <div className="pt-20">
-        <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+      <div className="pt-16 min-h-[calc(100vh-80px)] flex items-center">
+        <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 w-full">
           {children}
         </main>
       </div>
@@ -36,6 +36,14 @@ const Layout = ({ children }: LayoutProps) => {
                 </svg>
                 Ferencz Máté
               </p>
+              <p className="text-gray-300 font-montserrat text-base mb-3 flex items-center">
+                <svg className="w-5 h-5 mr-2 text-amber-800" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                </svg>
+                <a href="mailto:ferenczmate.business@gmail.com" className="hover:text-amber-800 transition-colors">
+                  ferenczmate.business@gmail.com
+                </a>
+              </p>
             </div>
             <div>
               <h3 className="text-2xl font-bold mb-4 font-raleway text-amber-800">Szolgáltatási területek</h3>
@@ -49,7 +57,7 @@ const Layout = ({ children }: LayoutProps) => {
             </div>
           </div>
           <div className="border-t border-gray-800 mt-8 pt-8 text-center">
-            <p className="text-gray-400 font-montserrat">&copy; {new Date().getFullYear()} Ács Mester. Minden jog fenntartva.</p>
+            <p className="text-gray-400 font-montserrat">&copy; {new Date().getFullYear()} Ferencz Máté. Minden jog fenntartva.</p>
           </div>
         </div>
       </footer>
