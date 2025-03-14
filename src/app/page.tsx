@@ -13,7 +13,7 @@ export default function Home() {
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
-        className="relative h-[600px] rounded-2xl overflow-hidden shadow-xl"
+        className="relative h-[80vh] rounded-2xl overflow-hidden shadow-xl"
       >
         <Image
           src="/pictures/IMG_0927.JPG"
@@ -27,14 +27,14 @@ export default function Home() {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 1, delay: 0.2 }}
-          className="relative z-20 h-full flex items-center justify-center text-center text-white"
+          className="relative z-20 h-full flex items-center justify-center text-center text-white px-4 py-8"
         >
           <div className="max-w-3xl px-4">
             <motion.h1 
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.4 }}
-              className="text-5xl md:text-7xl font-bold mb-6 text-white font-raleway"
+              className="text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-bold mb-3 sm:mb-6 text-white font-raleway"
             >
               Minőségi ács munkák
             </motion.h1>
@@ -42,7 +42,7 @@ export default function Home() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.6 }}
-              className="text-xl md:text-2xl mb-8 text-white font-montserrat"
+              className="text-lg sm:text-xl md:text-2xl mb-4 sm:mb-8 text-white font-montserrat"
             >
               Szakértő ács szolgáltatások a legmagasabb minőségben
             </motion.p>
@@ -50,16 +50,16 @@ export default function Home() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.8 }}
-              className="flex flex-col gap-4 items-center"
+              className="flex flex-col gap-2 sm:gap-4 items-center"
             >
-              <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+              <div className="flex flex-col sm:flex-row gap-2 sm:gap-4 justify-center items-center">
                 <motion.a
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   href="mailto:ferenczmate.business@gmail.com"
-                  className="w-64 bg-emerald-600 hover:bg-emerald-700 text-white px-8 py-4 rounded-full text-lg font-semibold transition-colors inline-flex items-center justify-center font-montserrat"
+                  className="w-64 bg-emerald-600 hover:bg-emerald-700 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-full text-base sm:text-lg font-semibold transition-colors inline-flex items-center justify-center font-montserrat"
                 >
-                  <svg className="w-5 h-5 mr-2" viewBox="0 0 24 24" fill="currentColor">
+                  <svg className="w-4 h-4 sm:w-5 sm:h-5 mr-2" viewBox="0 0 24 24" fill="currentColor">
                     <path d="M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-6.545-4.91v9.273H1.636A1.636 1.636 0 0 1 0 19.366V5.457c0-2.023 2.309-3.178 3.927-1.964L5.455 4.64 12 9.548l6.545-4.91 1.528-1.145C21.69 2.28 24 3.434 24 5.457z"/>
                   </svg>
                   Email küldése
@@ -68,9 +68,9 @@ export default function Home() {
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   href="tel:+36306547947"
-                  className="w-64 bg-white text-amber-800 hover:bg-amber-50 px-8 py-4 rounded-full text-lg font-semibold transition-colors inline-flex items-center justify-center font-montserrat"
+                  className="w-64 bg-white text-amber-800 hover:bg-amber-50 px-6 sm:px-8 py-3 sm:py-4 rounded-full text-base sm:text-lg font-semibold transition-colors inline-flex items-center justify-center font-montserrat"
                 >
-                  <svg className="w-5 h-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <svg className="w-4 h-4 sm:w-5 sm:h-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
                   </svg>
                   Hívjon most
@@ -79,9 +79,9 @@ export default function Home() {
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   href="viber://chat?number=+36306547947"
-                  className="w-64 bg-[#665CAC] text-white hover:bg-[#7d71c5] px-8 py-4 rounded-full text-lg font-semibold transition-colors inline-flex items-center justify-center font-montserrat"
+                  className="w-64 bg-[#665CAC] text-white hover:bg-[#7d71c5] px-6 sm:px-8 py-3 sm:py-4 rounded-full text-base sm:text-lg font-semibold transition-colors inline-flex items-center justify-center font-montserrat"
                 >
-                  <svg className="w-5 h-5 mr-2" viewBox="0 0 24 24" fill="currentColor">
+                  <svg className="w-4 h-4 sm:w-5 sm:h-5 mr-2" viewBox="0 0 24 24" fill="currentColor">
                     <path d="M11.2 0C5.85 0 1.3 4.55 1.3 9.9c0 2.15.7 4.15 1.85 5.75L1.3 20l4.35-1.85c1.6 1.15 3.6 1.85 5.75 1.85 5.35 0 9.9-4.55 9.9-9.9S16.55 0 11.2 0zm0 18.2c-1.85 0-3.6-.7-4.75-1.85l-3.5 1.4 1.4-3.5c-1.15-1.15-1.85-2.9-1.85-4.75 0-4.55 3.5-8.05 8.05-8.05s8.05 3.5 8.05 8.05-3.5 8.05-8.05 8.05z"/>
                   </svg>
                   Viber üzenet
@@ -93,7 +93,7 @@ export default function Home() {
               >
                 <Link
                   href="/szolgaltatasok"
-                  className="w-64 bg-amber-800 hover:bg-amber-700 text-white px-8 py-4 rounded-full text-lg font-semibold transition-colors inline-flex items-center justify-center font-montserrat"
+                  className="w-64 bg-amber-800 hover:bg-amber-700 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-full text-base sm:text-lg font-semibold transition-colors inline-flex items-center justify-center font-montserrat"
                 >
                   Szolgáltatásaink
                 </Link>
